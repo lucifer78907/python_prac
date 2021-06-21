@@ -1,0 +1,72 @@
+Python is a programming Interpreted language
+--------------------------------------------------------------
+It is powerful language widely used by most companies like 
+1.)Google for their web search engine.
+2.)Netflix for their AI algorithms.(to display recommandations based on the users choice).
+--------------------------------------------------------------
+Python has many implementations but the most widely used is Cpython or cython for short.
+Implementations means that python is originally written the C programming language and hence the name.
+There are many more implemenatations that include --
+1.)Jython - from JAVA.
+2.)Ironpython - from C#.
+--------------------------------------------------------------
+How does computer works with our codes that we write?
+Computer only understands BINARY i.e(0 or 1) , it does not understand what we write i.e English etc
+So computer converts your written code into BINARY using An Interpreter or a compiler.
+Whats the diff?
+Compiler--> If all of the written code is converted in a single go then it is called compiled code.
+Ex-> C++ is a complied language.
+Interpreter-->If all of the written code is converted line by line then it is called a interpreted code.
+Ex-> JAVA, Python.
+--------------------------------------------------------------
+||CONSTANTS||VARIABLES||KEYWORDS
+--------------------------------------------------------------
+Constants- Constant as clear by its name are some fixed quantities like a number or a name.
+They are called constants because they are fixed quantities that may or may not be changed through out the
+programme itself. Ex--> 23(a number),3.1428(a decimal or floating point number),'a'(a single character) etc.
+--------------------------------------------------------------
+Variables- It is a name given to a memory location in the memory
+
++---------+
+|  Oxcf9  |
++---------+
+| my_var  |
+| 230000  |
++---------+
+So this is a layout for the memory location when we define a variable so lets understand this in a bit depth
+Imagine i created a variable like-->
+my_var=23000
+so three things happen when we write a line like this-->
+--------------------------------------------------------------
+1.)Memory is given to hold a value (23000 in this case) in the memory like in the diagram.
+2.)A NAME is given to that memory location , name is same as the user name is variable.
+3.)The value which we give is written at that memory address.
+--------------------------------------------------------------
+If you might be imagining what is that strange number 0xcf9 -->
+It is the address of the memory location that is given to the varible (f in the chat coz i dont understand)
+Let me put it a simple way-->
+How do the amazon delivery guy know where you live --Yes your address. So he can deliver items to you.
+Address is the only way of knowing where something exist.
+Same is with the memory of our systems,it is vast , so to locate where the memory is given to your varible 
+We have AN address. 
+--------------------------------------------------------------
+So who uses the address?
+The intrepreter uses the address to find where your variable is located so that it can access it.
+Here interpreter is the delivery guy.
+--------------------------------------------------------------
+Keywords- There are some special words whose MEANING is already been explained to the Interpreter of python
+We cant use them as variable name or any other illegal place , it will throw an error.
+These Include -> for (used to implement loops) , int , float , input, print etc
+IF you write something like-->
+input=1;
+This will throw and error as it doesnt make sense , but we can fix this but adding some extra characters 
+with it .
+my_input=1;(This is valid) 
+--------------------------------------------------------------
+
+
+
+
+
+
+

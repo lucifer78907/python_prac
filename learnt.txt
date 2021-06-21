@@ -1,0 +1,14 @@
+print()
+input()
+f strings
+int()
+arthematic operators
+str()
+floor()
+ceil()
+round()
+int str float
+PEMDAS
+for loop
+range()
+in
