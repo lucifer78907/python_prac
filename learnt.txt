@@ -2,7 +2,7 @@ print()
 input()
 f strings
 int()
-arthematic operators
+arthematic operators(+,-,*,/,**,%)
 str()
 floor()
 ceil()
@@ -12,3 +12,6 @@ PEMDAS
 for loop
 range()
 in
+lower()
+if else elif
+relational operators (==,<,>,<=,>=)
