@@ -16,3 +16,7 @@ lower()
 if else elif
 relational operators (==,<,>,<=,>=)
 exit()
+logical operators( and , not ,or)
+unary and BINARY operators
+bool data type
+while loops
