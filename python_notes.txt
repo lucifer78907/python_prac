@@ -63,10 +63,30 @@ This will throw and error as it doesnt make sense , but we can fix this but addi
 with it .
 my_input=1;(This is valid) 
 --------------------------------------------------------------
-
-
-
-
-
+print()- The print() function prints the specified message to the screen.
+The message can be a string, or any other datatype(like int,float etc), the datatype will be converted 
+into a string before written to the screen.
+--------------------------------------------------------------
+input()- The input() function allows user to input data.
+IF you write something like-->
+x = input('Enter your name:')
+print('Hello, ' + x)
+output:
+Enter your name:| (ur curser will blink here until u write something(or in other words give an input)and press enter)
+for example-for the above code the output is:
+Enter your name:mona
+Hello, mona
+--------------------------------------------------------------
+f-string:- f-strings provide a way to add expressions inside string literals, using a minimal syntax.
+An f-string is an expression evaluated at run time, not a constant value.
+In Python source code, an f-string is a literal string(A "string literal" is a sequence of characters enclosed in double 
+quotation marks (" ")), prefixed with 'f', which contains expressions inside braces. 
+The expressions are replaced with their values.
+eg:-
+name = input("Enter your name")
+age = int(input("enter your age"))
+print(f"Hello, My name is {name} and I'm {age} years old.") 
+#here name and age will get replaced with the above input values (the user will provide here)
+--------------------------------------------------------------
 
 
